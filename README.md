@@ -2,7 +2,7 @@
 ## Chapman University, Fall 2025
 ## Instructor: Lindsay Waldrop, PhD
 
-This is the course information page for CPSC 292 Intro to Exploratory Data Analysis. It will contain all materials (except graded material): assignments, lecture notes, project info and handouts, the [syllabus]() and course schedules (released for each unit). These will be updated regularly. 
+This is the course information page for CPSC 292 Intro to Exploratory Data Analysis. It will contain all materials (except graded material): assignments, lecture notes, project info and handouts, the [syllabus](https://github.com/CPSC-292/Fall2025-CourseInfo/blob/main/Syllabus.md) and course schedules (released for each unit). These will be updated regularly. 
 
 ## About CPSC 292 
 
