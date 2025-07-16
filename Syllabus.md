@@ -4,15 +4,14 @@
 
 ### Basic Course Information
 
- - __Class numbers:__ 2527 (Section 01), 2530 (Section 02)
+ - __Class numbers:__ 2700 (Section 01), 2701 (Section 02)
  - __Units:__ 3 units 
- - __Lecture Time:__ Section 01: MWF, 11:00 -- 11:50 am; Section 02: 12:00 -- 12:50 pm
- - __Lecture Location:__ N214 Swenson Hall 
+ - __Lecture Time:__ Section 01: MWF, 9:00 -- 9:50 am; Section 02: 10:00 -- 10:50 pm
+ - __Lecture Location:__ Leatherby Libraries Lab B14
  - __Course Canvas Sites:__ 
-    - Section 01: https://canvas.chapman.edu/courses/65998
-    - Section 02: https://canvas.chapman.edu/courses/66010
-  - __Course Info Repository:__ https://github.com/CPSC-292/Fall2024-CourseInfo/
-  - __Course Discussion:__ https://github.com/orgs/CPSC-292/discussions
+    - Section 01: TBD
+    - Section 02: TBD
+  - __Course Info Repository:__ https://github.com/CPSC-292/Fall2025-CourseInfo/
   - __Course Slack:__ Link will be sent through Canvas
 
 
@@ -27,7 +26,7 @@ __Instructor:__ Lindsay Waldrop, Ph.D. (she/her/hers)
 
  - _Email address:_ waldrop@chapman.edu
  - _Office Location:_ 268 Keck 
- - _Office Hours:_ Wednesdays 10 - 11 am; Thursdays 2 - 4 pm; by appointment.
+ - _Office Hours:_ Wednesdays 11 am - 12:30 pm; Thursdays 2 - 4 pm; by appointment.
 
 
 ### Course Materials
@@ -42,7 +41,7 @@ __Required Textbooks:__
 
 At the completion of this course, students should be able to:
 
- 1. Understand the basic structure and function of the \R~programming language. 
+ 1. Understand the basic structure and function of the *R* programming language. 
  2. Understand and follow best practices in scientific computing.
  3. Independently create and perform basic data analysis and visualization in a way that communicates ideas clearly.
  
@@ -77,26 +76,31 @@ If an item does not reach a satisfactory level, you will have the opportunity to
 There are three types of work, completion of each indicates level of mastery of the material. In this class, these will be: 
 
  - __Assignments__: completion indicates _basic competence_ of the learning objective(s) being assessed. (This will be C-level work.) There will be approximately 28 assignments during the semester.
- - __Skill Checks__: completion indicates _advanced competence_ of the learning objective(s) being assessed. Typically, this will involve more synthesis of concepts and independence than assignments to complete. (This is B-level work.) There will be 6 Skill Checks during the semester. 
- - __Projects__: completion indicates _mastery_ of the learning objectives(s) being assessed. Projects will involve not only synthesis of a broad range of concepts, but also creativity, independence, and originality of work. (This is A-level work.)  There will be 3 projects during the semester.
+ - __Projects__: completion indicates _advanced competence_ of the learning objective(s) being assessed. Typically, this will involve more synthesis of concepts, creativity, and originality of work than assignments to complete. (This is B-level work.) There will be 4 projects during the semester. 
+ - __Skill Checks__: completion indicates _mastery_ of the learning objectives(s) being assessed. Skill Checks, similar to traditional exams, will involve synthesis of a broad range of concepts and independence. (This is A-level work.)  There will be 3 Skill Checks during the semester.
 
 As such, completing these assignments will indicate your level of mastery in the material covered in the course. 
 
-__Final Course Grade__ | Projects completed (A-level) | Skill Checks completed (B-level) | Assignments completed (C-level) |
-| :-----------------: | :------------------: | :--------------: | :----------------: |
-|         A         |        3           |       6        |       100 %      |
-|         B         |        1           |       6        |       100 %      | 
-|         C         |        0           |       2        |       100 %      | 
-|       D or F      |        0           |      >2        |      < 90 %      |
+### Grade-Score Guarantees
+
+__Final Course Grade__ | Skill Checks completed (A-level) | Projects completed (B-level) | Assignments completed (C-level) | Course Points |
+| :-----------------: | :------------------: | :--------------: | :----------------: | :----------------: |
+|         A         |        3           |       4        |       28      |  45   |  
+|         B         |        1           |       4        |       28      |  39  |
+|         C         |        0           |       2        |       28      |  32 |
+|       D or F      |        0           |      < 2        |      < 25      |   < 30 |
 
 
-Failure to complete 100% of assignments will result in some Skill Checks or Projects being converted into assignments. This rate is 1 project = 3 assignments; 1 skill check = 2 assignments. If a skill check is missing, 1 project will be converted into a skill check. 
+In order to convert the course materials to letter grades, each type of work indicating mastery level will be converted to course points. Each skill check is worth 3 course points; each project is worth 2 course points; each assignment is worth 1 course point. The table provides the minimum score cutoffs that will guarantee the letter grade listed in the course. 
+
+Final cutoffs for pluses and minuses on course grades are at the instructor's discretion and will be determined at the end of the course. 
+
 
 ### About deadlines
 
 There will be deadlines for completion of work typically one week after the material needed to complete the item's learning objective is covered in class and the item is assigned. After this deadline, items will be scored as not complete (0). There is no "late" work accepted.
 
-However, life happens, and you may not want to discuss with your instructor exactly what is going on to catch a break. You are allowed to invoke the __Life-Happens Clause__ on any assignment item (except those during the final exam period), no excuse required. Simply request a new deadline by email or a Slack message within 48 hours of when item was due (either before or after the deadline). _You have to provide the new deadline in the message!_ You may invoke the clause as many times as needed during the semester. If it becomes habitual, consider contacting the instructor so we can work out a better timetable for submitting assignments. 
+However, life happens, and you may not want to discuss with your instructor exactly what is going on to catch a break. You are allowed to invoke the __Life-Happens Clause__ on any assignment item (except those during the final exam period), no excuse required. Simply request a new deadline by email or a Slack message within 48 hours of when item was due (either before or after the deadline). _You have to provide the new deadline (date and time) in the message!_ You may invoke the clause as many times as needed during the semester. If it becomes habitual, consider contacting the instructor so we can work out a better timetable for submitting assignments. 
 
 ### Attendance and Participation
 
@@ -108,9 +112,6 @@ __Link between Assignments and Videos:__ This class is partially flipped, so tha
 
 There are no make-up work except under extraordinary circumstances for which documentation exists or otherwise noted. Please attend class on time, defined as within 5 minutes of the class start time.
 
-### Pluses and Minuses on Course Grades
-
-Final cutoffs for pluses and minuses on course grades are at the instructor's discretion and will be determined at the end of the course. 
 
 ### Other Course Policies
 
@@ -126,15 +127,15 @@ The use of GenAI is permitted in this course for the following activities:
  - writing conventions and style, and 
  - debugging and explaining code. 
  
-The use of GenAI is not permitted for the following activities: 
+The use of GenAI is not permitted for the following activities (with exceptions outlined on specific assignments or projects): 
 
  - writing a draft of a writing assignment, 
  - writing complete code or blocks of code for use in assignments, data analysis or visualization, or 
  - writing entire sentences, paragraphs, or papers to complete class assignments. 
  
-Students are responsible for fact-checking all GenAI output and disclosing the use and nature of use of GenAI tools on all class work.
+Students are responsible for fact-checking all GenAI output and disclosing the use and nature of use of GenAI tools on all class work. Additionally, students are responsible for knowing and being able to explain the content of all course work produced with the assistance of GenAI. 
 
-__COVID__: Masks are not required in class or office hours, but you are free to wear one if you wish. Any student required to quarantine or isolate due to exposure to or infection with SARS-CoV-2 will be able to attend classes remotely when possible. I am happy to work with you regarding making up class work.
+__General Health__: Masks are not required in class or office hours, but you are free to wear one if you wish. Any student required to quarantine or isolate due to exposure to or infection with SARS-CoV-2 or similar infection will be able to attend classes remotely when possible. I am happy to work with you regarding making up class work.
 
 __Final Project Policy:__ You must participate in and pass the final project in order to pass the course. _There will be no exceptions to this policy._ If you are aiming for C-level work, you must attend the final exam period where projects are presented (even if you don't otherwise contribute). 
 
