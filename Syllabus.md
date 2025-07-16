@@ -1,4 +1,5 @@
 # CPSC 292 - Introduction to Exploratory Data Analysis
+## July 15, 2025
 
 # Syllabus
 
