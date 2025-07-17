@@ -1,5 +1,6 @@
 # CPSC 292 - Introduction to Exploratory Data Analysis
-## July 15, 2025
+
+### Updated: July 16, 2025
 
 # Syllabus
 
@@ -78,7 +79,7 @@ There are three types of work, completion of each indicates level of mastery of 
 
  - __Assignments__: completion indicates _basic competence_ of the learning objective(s) being assessed. (This will be C-level work.) There will be approximately 28 assignments during the semester.
  - __Projects__: completion indicates _advanced competence_ of the learning objective(s) being assessed. Typically, this will involve more synthesis of concepts, creativity, and originality of work than assignments to complete. (This is B-level work.) There will be 4 projects during the semester. 
- - __Skill Checks__: completion indicates _mastery_ of the learning objectives(s) being assessed. Skill Checks, similar to traditional exams, will involve synthesis of a broad range of concepts and independence. (This is A-level work.)  There will be 3 Skill Checks during the semester.
+ - __Skill Checks__: completion indicates _mastery_ of the learning objectives(s) being assessed. Skill Checks, similar to traditional exams, will involve synthesis of a broad range of concepts and independence. (This is A-level work.)  There will be 4 Skill Checks during the semester.
 
 As such, completing these assignments will indicate your level of mastery in the material covered in the course. 
 
@@ -86,15 +87,15 @@ As such, completing these assignments will indicate your level of mastery in the
 
 __Final Course Grade__ | Skill Checks completed (A-level) | Projects completed (B-level) | Assignments completed (C-level) | Course Points |
 | :-----------------: | :------------------: | :--------------: | :----------------: | :----------------: |
-|         A         |        3           |       4        |       28      |  45   |  
-|         B         |        1           |       4        |       28      |  39  |
+|         A         |        4           |       4        |       28      |  48   |  
+|         B         |        2           |       4        |       28      |  42  |
 |         C         |        0           |       2        |       28      |  32 |
 |       D or F      |        0           |      < 2        |      < 25      |   < 30 |
 
 
 In order to convert the course materials to letter grades, each type of work indicating mastery level will be converted to course points. Each skill check is worth 3 course points; each project is worth 2 course points; each assignment is worth 1 course point. The table provides the minimum score cutoffs that will guarantee the letter grade listed in the course. 
 
-Final cutoffs for pluses and minuses on course grades are at the instructor's discretion and will be determined at the end of the course. 
+Final cutoffs for pluses and minuses on course letter grades are at the instructor's discretion and will be determined at the end of the course. 
 
 
 ### About deadlines
@@ -130,9 +131,9 @@ The use of GenAI is permitted in this course for the following activities:
  
 The use of GenAI is not permitted for the following activities (with exceptions outlined on specific assignments or projects): 
 
- - writing a draft of a writing assignment, 
- - writing complete code or blocks of code for use in assignments, data analysis or visualization, or 
- - writing entire sentences, paragraphs, or papers to complete class assignments. 
+ - writing a draft of any course work; 
+ - writing complete code or blocks of code for use in course work, data analysis or visualization; or 
+ - writing entire sentences, paragraphs, or papers to complete course work. 
  
 Students are responsible for fact-checking all GenAI output and disclosing the use and nature of use of GenAI tools on all class work. Additionally, students are responsible for knowing and being able to explain the content of all course work produced with the assistance of GenAI. 
 
