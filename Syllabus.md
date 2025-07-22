@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # CPSC 292 - Introduction to Exploratory Data Analysis
 
 Last Updated: July 22, 2025
