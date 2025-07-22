@@ -22,7 +22,7 @@ __Week 1:__
   - __Mon Aug 25__: L1.1 Introduction to Course. Why Learn *R*? \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{None}}$ | CLO 1-3 discussed
   - __Wed Aug 27__: L1.2 How Computers Work \
-  $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{Assignments 1.1, 1.2, and 1.3}}$ | 1.18, 1.2.1, 2.1.1-2.1.3
+  $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{Assignments 1.1, 1.2, and 1.3}}$ | 1.1.8, 1.2.1, 2.1.1-2.1.3
   - __Fri Aug 29__: L1.3 Computer Games \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{Assignment 1.4}}$ | 1.2.1
 
