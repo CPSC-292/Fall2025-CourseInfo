@@ -48,5 +48,9 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# Assignment keys
+*-key.*
+
 # Other files
 *.DS_Store
+*.html

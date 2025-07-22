@@ -1,0 +1,101 @@
+---
+title: "Project 4 -- Final Lab Report"
+author: "Intro to Exploratory Data Analysis"
+date: "12/10/2025"
+output: html_document
+#bibliography: crabs.bib
+---
+
+
+### Handling code in the report
+
+The RMD should be fully replicable, meaning that all code that handles and cleans data and produces visualizations shoule be included in the RMD. However, the code and raw output *should not be visible* in the final DOC or HTML document. Only visualizations should be visible in the report.
+
+In order to do this, each chunk can be altered to run calculations and not show output or code. Be sure to divide code that runs calculations and produces visualizations into separate code chunks. 
+
+For code that only does calculations or data handling, use `include=FALSE` in the chunk header to suppress output and code: 
+
+```{r include=FALSE}
+a <- 2 + 2
+```
+
+For code that produces a visualization, use `echo=FALSE,message=FALSE,warning=FALSE`:
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+plot(cars)
+```
+
+### Captioning figures
+
+You will need to caption figures in order to refer to them in your text. This is really easy, just add `fig.cap = "your text"` to the header along with echo and warning. Be sure to separate each command in the header with a comma. Below is an example, using the first plot:
+
+```{r, echo=FALSE, message=FALSE, warning = FALSE, fig.cap = "Figure 1. Plot of car stopping distance in m versus speed in m/s."}
+plot(cars, xlab = "Speed (m/s)", ylab = "Stopping distance (m)")
+```
+
+Be sure that your figures are well captioned with a meaningful description of what data are shown and how it is being graphed. Also, be sure that you are labeling your axes, including proper units, as in Fig. 1. 
+
+
+### What to turn in
+
+For the final report, you will turn in a zip file that contains all the necessary elements to reproduce your report using RMarkdown and RStudio. This could include the following:
+ 
+ * An R Project file and folder that contains all work necessary to generate the report. All file should be in standard project format or modified standard project format. 
+ * An RMD file which will knit to either HTML or DOC. 
+ * Data files in a `data/` directory. 
+ * Image files if there are pictures in `doc/` or `document/`.
+ * bib files for references, should be in `doc/` or `document/`.
+ * Other files, if necessary, in appropriate locations.
+ 
+The best way to check to see if you are turning in a complete package is to zip everything up, move it to a different location of your computer, delete the html or doc knitted file, restart R and clear your global environment, then try to knit the file. If it works, you're ready to submit! 
+
+
+### How this report will be assessed
+
+Your final report will go through two levels of assessment: 
+
+  - __A reproducibility check__: The replication process is as follows: 
+    1. The zip file is downloaded and uncompressed. 
+    2. The RStudio project is opened using the RProj file. 
+    3. The RMD is opened and ``Knit" button is pressed.
+    
+    If the RMD fails to knit, or if there are errors produced in the code, the project will receive an incomplete.
+    
+  - __An assessment for content__: I will assess the report for content according to the rubric below. 
+
+
+### Scoring Rubric
+
+Each section will be assessed with the following rubric: 
+
+ __1. Background__: scored as complete or incomplete.
+
++ __complete__: Background provides all of the necessary information for the reader to understand the question and visualization. No extraneous information is presented. Writing is concise, clear, and well organized. Questions and/or motivations driving the visualization(s) are clearly stated. 
++ __incomplete__: Introduction lacks much of the background necessary for the reader to understand the question and visualization. Writing is so unclear or disorganized that comprehension is severely affected or is not understandable. Motivation for visualization is absent.
+
+__2. Analysis__: scored as complete or incomplete.
+
++ __complete__: Clearly written narrative of how the analysis was conducted to the detail level that someone could reproduce and understand the analysis. Includes all code to reproduce data loading and cleaning. 
++ __incomplete__:  Section is sufficiently unclear or written entirely as a list of steps to follow. Enough details are missing that readers would not be able to repeat or understand the analysis. 
+
+__3. Results & Discussion__: scored as complete or incomplete.
+
++ __complete__: Figures are accurate, clear, concise, well-labeled, easy to read, and colorblind friendly. Figures are numbered and captioned and are referenced in the text. Results and interpretations are presented as a narrative organized around the main findings of the analysis. 
++ __incomplete__: Graphs are not accurate and/or inadequate. Figures are not discussed or not captioned or referenced in text. Results are inadequately presented or interpreted.
+
+__4. Conclusions__: scored as complete or incomplete.
+
++ __complete__: Conclusions are clear and concise and takeaway points are well communicated.
++ __incomplete__: Conclusions are absent or inadequate.
+
+__5. References__: failure to meet minimum results in incomplete:
+
++ Fewer than 2 peer-reviewed references
++ No reference to data set
++ No/inappropriate in-text citations
+
+
+### Other general recommendations
+
+I highly recommend that you produce a draft early enough to get feedback from either me, a classmate, or both. I encourage you to get feedback from your classmates before you submit a final version of the report! 
+

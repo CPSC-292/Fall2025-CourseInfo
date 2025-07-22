@@ -1,6 +1,11 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # CPSC 292 - Introduction to Exploratory Data Analysis
 
-### Updated: July 16, 2025
+Last Updated: July 22, 2025
 
 # Syllabus
 
@@ -77,9 +82,9 @@ If an item does not reach a satisfactory level, you will have the opportunity to
 
 There are three types of work, completion of each indicates level of mastery of the material. In this class, these will be: 
 
- - __Assignments__: completion indicates _basic competence_ of the learning objective(s) being assessed. (This will be C-level work.) There will be approximately 28 assignments during the semester.
+ - __Assignments__: completion indicates _basic competence_ of the learning objective(s) being assessed. (This will be C-level work.) There will be approximately 30 assignments during the semester.
  - __Projects__: completion indicates _advanced competence_ of the learning objective(s) being assessed. Typically, this will involve more synthesis of concepts, creativity, and originality of work than assignments to complete. (This is B-level work.) There will be 4 projects during the semester. 
- - __Skill Checks__: completion indicates _mastery_ of the learning objectives(s) being assessed. Skill Checks, similar to traditional exams, will involve synthesis of a broad range of concepts and independence. (This is A-level work.)  There will be 4 Skill Checks during the semester.
+ - __Skill Checks__: completion indicates _mastery_ of the learning objectives(s) being assessed. Skill Checks, similar to traditional exams, will involve synthesis of a broad range of concepts and independence. (This is A-level work.)  There will be 3 Skill Checks during the semester.
 
 As such, completing these assignments will indicate your level of mastery in the material covered in the course. 
 
@@ -87,10 +92,10 @@ As such, completing these assignments will indicate your level of mastery in the
 
 __Final Course Grade__ | Skill Checks completed (A-level) | Projects completed (B-level) | Assignments completed (C-level) | Course Points |
 | :-----------------: | :------------------: | :--------------: | :----------------: | :----------------: |
-|         A         |        4           |       4        |       28      |  48   |  
-|         B         |        2           |       4        |       28      |  42  |
-|         C         |        0           |       2        |       28      |  32 |
-|       D or F      |        0           |      < 2        |      < 25      |   < 30 |
+|         A         |        3           |       4        |       30      |  47   |  
+|         B         |        1           |       4        |       30      |  39  |
+|         C         |        0           |       2        |       30      |  32 |
+|       D or F      |        0           |      < 2        |      < 28      |   < 30 |
 
 
 In order to convert the course materials to letter grades, each type of work indicating mastery level will be converted to course points. Each skill check is worth 3 course points; each project is worth 2 course points; each assignment is worth 1 course point. The table provides the minimum score cutoffs that will guarantee the letter grade listed in the course. 
