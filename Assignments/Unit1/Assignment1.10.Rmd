@@ -1,0 +1,107 @@
+---
+title: "Assignment 1.10"
+author: "Your Name"
+date: "09/12/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: 'CPSC 292 Section ##'
+---
+
+### Collaboration team: 
+
+Record who you've worked on the assignment with here. 
+
+
+## Assignment 1.10 -- Data Frames
+
+```{r setup, include=FALSE}
+# Do not alter this section of code!
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Write a R code in each chunk (gray space) that provides answers to the following questions. If any questions need direct answers, give them in regular text space (white space).
+
+### Question 1
+
+*Create a data frame that has columns with three different data types.*
+
+```{r}
+df <- data.frame("characters" = c("yip", "yip", "yip"), 
+                 "numbers" = c(1.2, 3.5, 2.4),
+                 "logicals" = c(T, T, F))
+```
+
+_Any data frame that works and has three different data types is fine._
+
+### Question 2
+
+*Load the data set warpbreaks, which is a data set based on manufacturing yarn.*
+
+```{r}
+data("warpbreaks")
+
+```
+
+*Use it to answer the following questions:*
+
+  a. *What is the mean number of breaks in the study under all conditions?*
+  
+```{r}
+mean(warpbreaks$breaks)
+```
+
+  b. *How many observations are in each type of wool? How many observations in each type of tension?* 
+  
+```{r}
+table(warpbreaks$wool)
+table(warpbreaks$tension)
+```
+  
+_There are several ways to do this, any that reports all the counts for all groups is fine._
+  
+  c. *Create two separate vectors with all the breaks in one vector and all the tensions in the other.*
+  
+```{r}
+vec1 <- warpbreaks$breaks
+vec2 <- warpbreaks$tension
+```
+  
+  d. *Subset the data frame into a new object that represents only the breaks for tension M.*
+  
+```{r}
+med_tension <- warpbreaks$breaks[warpbreaks$tension == "M"]
+```
+
+  e. *Repeat this subsetting into two new objects for only breaks for tension H and tension L.*
+  
+```{r}
+high_tension <- warpbreaks$breaks[warpbreaks$tension == "H"]
+low_tension <- warpbreaks$breaks[warpbreaks$tension == "L"]
+```
+
+  f. *What are the mean number of breaks for each tension value?*
+  
+```{r}
+mean(low_tension)
+mean(med_tension)
+mean(high_tension)
+```
+
+  g. *If you were in charge of reducing the number of breaks during yarn production, which tension should you set the machines at?* 
+  
+Your answer here.
+
+  
+### Question 3
+
+*The following line of code does not work. Correct the error so that the code returns the mean weight of chicks fed soybean or linseed feed.*
+```{r}
+stdev(warpbreaks$breaks[warpbreaks$wool == "A" & warpbreaks$tension == "L",])
+```
+
+*Explain why your fix works.*
+
+Your answer here. 
+
+Turn in this RMD file.

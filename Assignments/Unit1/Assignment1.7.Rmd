@@ -1,0 +1,107 @@
+---
+title: "Assignment 1.7"
+author: "Your Name"
+date: "09/08/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: 'CPSC 292 Section ##'
+---
+
+### Collaboration team: 
+
+Record who you've worked on the assignment with here. 
+
+
+### Question 1
+
+*Create a vector that is a sequence of numbers between 309 and 786 with the total length of 200.*
+
+```{r}
+
+```
+
+*By what amount is each element separated by? Have R calculate this difference in code.*
+
+```{r}
+
+```
+
+### Question 2
+
+*Create a vector that repeats the same sequence of numbers 5 through 8 fifteen times.*
+
+```{r}
+
+```
+
+*Write another line of code that repeats these three times element-wise.*
+
+```{r}
+
+```
+
+### Question 3
+
+*Below is the vector q3 that is a sequence of numbers between 1 and 400 that contains numbers spaced by 0.2 in the code chunk below. Run this line and then answer each of the following parts with code below.*
+
+```{r}
+q3 <- seq(1, 400, by = 0.2)
+```
+
+  a. *What class is the vector q3?*
+
+```{r}
+
+```
+
+  
+  b. *How long is the vector q3?*
+  
+```{r}
+
+```
+
+  c. *What is the mean value of the vector q3?*
+  
+```{r}
+
+```
+
+  d. *What value is at position 78 in the vector q3?*
+  
+```{r}
+
+```
+
+  e. *What is the sum of the numbers in positions 543 through 651 of the vector q3?*
+  
+```{r}
+
+```
+
+### Question 4
+
+*You have a vector pop1 which has the elements: < 5, 7.3, 2.1, 11 >. You’d like to add the value 1.3 to each element of pop1 separately to create a new vector pop2. Duplicate pop1 to create pop2 and then add 1.3 to each element of pop2 separately.*
+
+```{r}
+pop1 <- c(5, 7.3, 2.1, 11)
+
+```
+
+*Now write one line of code that performs a vectorize add of 1.3 to each element of pop1 to create pop3.*
+
+```{r}
+
+```
+
+
+### Question 5
+
+*The following line of code does not work. Correct the error so that a vector is produced.*
+
+```{r}
+pop3 <- (3, 4, 7, 1, 3)
+```
+
+Turn in this RMD file.
