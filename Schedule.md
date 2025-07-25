@@ -1,6 +1,6 @@
 # CPSC 292 Lecture and Assignment Schedule -- Fall 2025
 
-Last updated: 7/22/2025
+Last updated: 7/25/2025
 
 ### Reading Guide and Notes
 
@@ -76,14 +76,14 @@ __Week 7:__
 
   - __Mon Oct 6__: Student presentations on graph types (no video) \
   $\color{red}{\textsf{Assigned Chang Chapter}}$ | $\color{blue}{\textsf{None}}$ | 3.3, 3.5
-  - __Wed Oct 8__: How We See (no video) \
+  - __Wed Oct 8__: L2.7 How We See (no video) \
   $\color{red}{\textsf{Katsnelson 2021}}$ | $\color{blue}{\textsf{None}}$ | 3.6.1-3.6.4
   - __Fri Oct 10__: L2.8 Basics of Data Visualization (no video) \
   $\color{red}{\textsf{Davies Ch 14}}$ | $\color{blue}{\textsf{Assignment 2.6}}$ | 3.6.5 | __Project 1 draft due__
   
 __Week 8:__
 
-  - __Mon Oct 13__: L2.9 Critiquing Visualizations (no video), __SK1 final attempt__ \
+  - __Mon Oct 13__: L2.9 Critiquing Visualizations (no video),  __SK1 final attempt__ \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{Prepare projects for critiques}}$ | 3.1-3.6 
   - __Wed Oct 15__: Project 1 (P1): Draft Visualizations set 1; Assignment 2.7: Providing critiques (no video) \
   $\color{red}{\textsf{Set 1 prepares for critiques}}$ | $\color{blue}{\textsf{None}}$ | 3.1-3.6

@@ -1,6 +1,6 @@
 # CPSC 292 - Introduction to Exploratory Data Analysis
 
-Last Updated: July 22, 2025
+Last Updated: July 25, 2025
 
 # Syllabus
 
@@ -108,7 +108,7 @@ However, life happens, and you may not want to discuss with your instructor exac
 
 Learning depends on engagement, and engagement depends on both the relationship between students and instructors and the general learning environment. Engagement is a relationship, and like any other relationship, depends on two people: the instructor and the student. Instructors will do their part to come to class prepared with interesting material and a science-based lecture style that includes active learning techniques. You are expected to come to class prepared by completing any pre-class videos and assignments and willing to participate in your own learning. Furthermore, you are expected to help cultivate a positive and welcoming learning environment for you and your fellow students. In order to do this, class attendance _and participation_ is mandatory throughout the semester. 
 
-__How participation will be assessed__: Days in which you don't participate will be recorded. This could be due to: absence, excessive lateness (more than 10 minutes), not working on class exercises, not engaging with group work, not engaging in lecture materials, being excessively distracted or distracting (including being off-task on the computer or phone), not viewing lesson videos in a timely manner, etc. Since no one is perfect, three absences will be overlooked during the semester. Additional absences will lead to a loss in completed work at the rate of three absences resulting in a deduction of one completed assignment. 
+__How participation will be assessed__: Days in which you don't participate will be recorded. This could be due to: absence, excessive lateness (more than 10 minutes), not working on class exercises, not engaging with group work, not engaging in lecture materials, being excessively distracted or distracting (including being off-task on the computer or phone), not viewing lesson videos in a timely manner, etc. Since no one is perfect, three absences will be overlooked during the semester. Additional absences will lead to a loss in completed work at the rate of two absences resulting in a deduction of one completed assignment. 
 
 __Link between Assignments and Videos:__ This class is partially flipped, so that you will need to watch a video of lecture content *before* attending the scheduled lecture in which that content will be covered. The lecture will consist of in-class work on the linked assignments. *In order for the associated assignment to be marked complete, the lecture video must be completed.* 
 

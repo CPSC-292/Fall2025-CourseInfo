@@ -1,0 +1,36 @@
+---
+title: "Assignment 4.2"
+author: "Your Name"
+date: "11/19/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: "CPSC 292 Section ##"
+---
+
+## Assignment 4.2
+
+```{r setup, include=FALSE}
+# Loading required libraries
+# Do not alter this section of code!
+
+```
+
+Be sure to write any regular text in the white space (not the gray code blocks).
+
+### Collaboration team: 
+
+Record who you've worked on the assignment with here. 
+
+
+### Managing Citations with RMarkdown
+
+  1. *Go to Google Scholar and search for your favorite animal. Be sure to note the search terms you use. Download the citations for the first five peer-reviewed journal articles that Google Scholar returns and save them to a .bib file.*
+
+  2. *Reference each article in a list using code for citing articles with RMarkdown. Give a short (one or two sentences) about each reference. Ensure that there is a successful bibliography at the end of the HTML or DOC file referencing all five articles with full citations.*
+
+  3. *Make sure your references are formatted in the style of Nature Genetics.*
+  
+
+Turn in all files necessary to run the RMD in a zip file (RMD, bib, csl).
+

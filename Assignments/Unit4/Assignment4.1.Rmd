@@ -1,0 +1,33 @@
+---
+title: "Assignment 4.1"
+author: "Your Name"
+date: "11/17/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: "CPSC 292 Section ##"
+---
+
+## Assignment 4.1
+
+```{r setup, include=FALSE}
+# Loading required libraries
+# Do not alter this section of code!
+
+```
+
+Be sure to write any regular text in the white space (not the gray code blocks).
+
+### Collaboration team: 
+
+Record who you've worked on the assignment with here. 
+
+
+### Question 1
+
+*Write a 200-word summary of Lecture 4.1 that includes any tips and tricks for successfully communicating science.*
+
+
+Your answer here. 
+
+

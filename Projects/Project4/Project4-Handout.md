@@ -1,10 +1,15 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Project 4
 
 ## Agreement 
 
 This Project is meant to be an assessment of your ability to present the work from Project 3 in a written report format. 
 
-This project is an individual evaluation. Each student, even if working together for other projects, is to write and submit their own, unique report.
+This project is an individual evaluation. Each student, even if working together for other projects, is to write and submit their own, unique report. Visualizations may be duplicated between students working on the same project but text should not.
  
 
 You may use any resource, either online or physical, to complete the work. This includes:
@@ -26,7 +31,7 @@ If you use work outside normal course resources (textbooks, lecture notes, slide
 ## Instructions
 
   - __Step 1:__ You will work with your visualizations from Project 3. In your R Project, create a "Project4" RMD file. Create a report, similar to a lab report, with the sections and requirements outlined below. This should have the same structure as Project 3 in a written format with more room to expand on ideas. 
-  - __Step 2:__ Turn in the final version of your full R Project as a compressed zip folder by __Wednesday, December 3 by 5 pm__.
+  - __Step 2:__ Turn in the final version of your full R Project as a compressed zip folder by __Wednesday, December 10 by 5 pm__.
 
 
 
