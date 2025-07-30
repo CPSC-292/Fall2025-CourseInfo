@@ -8,7 +8,7 @@ output:
 subtitle: "CPSC 292 Section ##"
 ---
 
-## Assignment 2.5: Geometric Object Types
+## Assignment 2.5: ggplot Geometric Object Types
 
 ```{r setup, include=FALSE}
 # Loading required libraries
@@ -24,19 +24,26 @@ Record who you've worked on the assignment with here.
 
 ### Assignment
 
+You will work in a group with several other students, please sign up on `Canvas > People > Assignment 2.5 - Student plots`.
+
 Prepare some sample code for using each of the following groups of geometric objects for your classmates: 
 
- 1. `geom_point()`, `geom_line()`, `geom_qq_line()`
- 2. `geom_bar()`, `geom_boxplot()`, `geom_violin()`
- 3. `geom_histogram()`, `geom_density()`, `geom_dotplot()` 
- 4. `geom_map()`
- 5. `geom_raster()`, `geom_tile()`, `geom_contour()`
- 6. Other geoms: [ggplot extension gallery](https://exts.ggplot2.tidyverse.org/gallery/)
+ 1. Continuous x, y data: `geom_point()`, `geom_line()`, `geom_qq_line()`; \
+ example data sets (package): `DNase (datasets)`, `Loblolly (datasets)`, `diamonds (ggplot2)`, `urine (boot)`
+ 2. Continuous y, categorical x data: `geom_bar()`, `geom_boxplot()`, `geom_violin()`; \
+ example data sets (package): `InsectSprays (datasets)`, `wool (boot)`, `diamonds (ggplot2)`, `starwars (dplyr)`
+ 3. Data from distributions:  `geom_histogram()`, `geom_density()`, `geom_dotplot()`; \
+ example data sets (package): `diamonds (ggplot2)`, `txhousing (ggplot2)`, `singer (lattice)`
+ 4. Data on maps: `geom_map()`, `geom_polygon()`; \
+ example data sets: `seals (ggplot2)`, `lakers (lubridate)`
+ 5. Data in matrices (2D data): `geom_raster()`, `geom_tile()`, `geom_contour()` \
+ example data sets: `volcano (datasets)`, `diamonds (ggplot2)` 
+ 6. Choose your own adventure. Choose a package from the [ggplot extension gallery](https://exts.ggplot2.tidyverse.org/gallery/).
  
 Be ready to give a short presentation on each graph type in the next class period. Let us know the following things: 
 
  * what does the plot look like (present an example of each)
- * what data are appropriate for use (categorical, continuous, etc)
+ * explain what data are appropriate for use (categorical, continuous, etc)
  * what does the plot tell us about the data (generally)
  
-Before class, you'll be responsible for turning in an R Markdown file with the example code as part of this assignment. 
+Before class, you'll be responsible for turning in an R Markdown file with the example code as part of this assignment. During class, you will present the R Markdown file and code to the class.

@@ -1,0 +1,104 @@
+---
+title: "Assignment 3.5"
+author: "Your Name"
+date: "10/31/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: "CPSC 292 Section ##"
+---
+
+
+## 3.5 Flow Control Continued
+
+During this class period, we will work on the following problem which combine flow control elements: functions, conditionals, and loops. I will step you through the first two problems and then you will have a chance to work on the next three with your classmates. 
+
+The goal for this class period is to get used to approaching problems. The process of solving large coding problems often boils down to breaking them up into smaller pieces that you can then put together. You should try to get each small problem to work before moving on to the next. We will practice how to break up problems and figure out where to start, what you can do, and how to build code that completes larger, more complex tasks. 
+
+Each question requires the use of two or more tools that we've learned in Unit 3 so far. Your code should be the simplest version that accomplishes the task. 
+
+### Question 1
+
+Use a nested loop to fill the empty `my.matrix` defined below. The first column should be numbers 1 through 10, the second column should be 2 times the first column, the third column should be three times the first column, etc. The first row of the matrix should be (1, 2, 3, 4, 5) when it is filled.
+
+```{r, include=TRUE}
+my.matrix <- matrix(rep(NA, 10*5), nrow = 10, ncol = 5)
+
+
+
+```
+
+### Question 2 
+
+Write a function that assigns colors the following numbers: 
+
+ * red = 1
+ * blue = 2
+ * white = 3
+ * yellow = 4
+ * green = 5
+ * others = 6
+
+Use the function in a loop to convert `colors2numbers` below into numbers. 
+
+```{r, include=TRUE}
+
+colors2numbers <- c("red", "yellow", "orange", "blue", "blue", "white", "magenta")
+
+
+
+
+```
+
+Now, rewrite the code so that the loop sits inside the function to create a vectorized function. 
+
+```{r}
+
+
+```
+
+
+### Question 3
+
+  a. The data set `UCBAdmissions` contains tables of the numbers of applications to UC Berkeley in different departments labeled A through F. The applications are divided by the numbers admitted and rejected for females and males. Write a function that will return the percentage of admitted and rejected applications that are female when given the department name. Include an early exit that will return an error if the user gives an unknown department name. Hint: `LETTERS` is a built-in vector that will return the capital letters of the alphabet.
+
+```{r, include=TRUE}
+
+```
+
+  b. Use your function from question 3 and the `UCBAdmissions` data set to create a summary matrix of results. The rows should be each department A -- F, there should be one column for percentage of female admitted applications and one column should be percentage of female rejected applications. Name the rows by each department letter and columns by the result. You should use base graphics and manually fill any matrices or data frames. (Do not use specialized packages such as `tidyr` or `dplyr`.)
+
+```{r, include=TRUE}
+
+```
+
+### Question 4
+
+The `amis` data set in the `boot` package contains data from a study conducted in Cambridgeshire County UK into the effects of warning signs on speeding patterns. Sites were paired with one having a warning sign about speeding and the other location had nothing. The study contained the speed of cars in mph (`speed` column), the three periods of the study (`period` column), whether or not the site had a warning sign (`warning` column; no warning = 1, warning = 2), and what site pair the measurement was taken (`pair` column) (see [amis dataset](https://r-packages.io/datasets/amis) for more). Use this data set to complete the following work. Do not use any specialized packages for the questions, complete all work manually with the flow control elements we have discussed in Unit 3.
+
+```{r}
+data(amis, package = "boot")
+```
+
+  a. This study is paired, so it's important to separate out the data into each pair of sites. There are 14 sites total. For each site, calculate a mean speed for the warning and non-warning action. Create a table that has 14 rows (for each site) and three columns, one for the number of each pair site, one for warning speed means and one for non-warning speed means. Fill the matrix with the means.
+  
+```{r, include=TRUE}
+
+```
+
+  b. Now you can plot each set of means against the pair site using base graphics. Give the graph appropriate labels. Warning means should be plotted in different colors with a legend. Make sure the limits of your graph show all the data!
+  
+```{r, include=TRUE}
+
+```
+
+  c. Do warnings work to slow drivers down? Test the means of the two sites against each other with a paired t-test (`t.test()`). Report the findings in text below the code block. 
+  
+```{r, include=TRUE}
+
+```
+
+Your answer here.
+
+
+

@@ -1,0 +1,77 @@
+---
+title: "Assignment 3.2"
+author: "Your Name"
+date: "10/24/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: "CPSC 292 Section ##"
+---
+
+## Assignment 3.2 
+
+```{r, include=TRUE}
+# Loading required libraries
+
+```
+
+
+For each part of each question, write code or answer the question in the simplest way. 
+
+### Question 1
+
+
+*Complete the following steps:*
+
+ a.  *Create a function that will take an object `x` and return the results of the following calculation: 10x^3 + 2x - 3*
+
+```{r, include=TRUE}
+
+```
+
+ b. *Use your function to calculate the result of ten random numbers. Store the results in another object.*
+ 
+```{r, include=TRUE}
+
+```
+
+ c. *Does your function perform a vectorized calculation? How do you know?*
+ 
+The function should be vectorized because it should take a vector and perform the calculation on each item in the vector.
+
+### Question 2
+
+*Write a function that reports the mean price of diamonds in the `diamonds` data set (`ggplot2` package) when given the clarity. Include an example call of your function that is successful.*
+
+```{r, include=TRUE}
+
+```
+
+Must include the example function call, kick back to student if no call.
+
+### Question 3
+
+  a. *The `carnivores` data set in the `geiger` package contains a phylogenetic tree and a data set including species richness by family. Write a small function that retrieves the number of the row in the `dat` member of `carnivores` when given a family name. Include a line that calls your function with the family name Canidae. Hint: `which()` will give you the position number any TRUE results from a test on a vector.*
+  
+```{r}
+
+```
+
+  b. *Using the function you wrote for a, make a function that reports the species richness of a user-specified family from the `carnivores` data set. Include a line that calls your function with the family name Felidae.*
+
+```{r, include=TRUE}
+
+```
+
+
+### Question 4
+
+*Write your own function that does any task that requires two inputs from the user.*
+
+```{r, include=TRUE}
+
+```
+
+
+
+

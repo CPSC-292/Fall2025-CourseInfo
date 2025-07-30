@@ -1,0 +1,16 @@
+---
+title: "Assignment 3.6"
+author: "Your Name"
+date: "11/5/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: "CPSC 292 Section ##"
+---
+
+
+## Assignment 3.6 -- Refactoring 
+
+For this assignment, pick three chunks of code from past assignments in units 2 or 3 to refactor. Each chunk must be at least 5 lines long. Copy those into a this Rmd file and label each of them questions 1, 2, and 3. Refactor the code so that it conforms to the style guide elements set out in L3.8. Be sure to identify your goals of refactoring each in the text.
+
+

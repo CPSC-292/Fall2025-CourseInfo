@@ -1,0 +1,37 @@
+---
+title: "Assignment 3.1"
+author: "Your Name"
+date: "10/15/2025"
+output:
+  html_document:
+    df_print: paged
+subtitle: "CPSC 292 Section ##"
+---
+
+## Assignment 3.1
+
+
+Complete the instructions for your assigned paper below.
+
+### For Stewart et al. 2017:
+
+Write a 200-word summary of the paper.
+
+Come up with answers to the following questions (to be used for the discussion):
+
+  a. What are good reasons to make science open, transparent, and reproducible?
+  b. What are some tools that Stewart et al. suggest might be helpful to make science more open?
+
+### For Wilson et al. 2017:
+
+Write a 200-word summary of the paper.
+
+Come up with answers to the following questions (to be used for the discussion):
+
+  a. What are the ‘good-enough’ practices suggested by Wilson et al.?
+  b. What are the good-enough practices that would be reasonable to implement during this course?
+  
+## For all:
+
+Submit your summary and answers to Canvas BEFORE CLASS on 10/22 and also bring these to class ready to discuss!
+
