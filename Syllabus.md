@@ -1,6 +1,11 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # CPSC 292 - Introduction to Exploratory Data Analysis
 
-Last Updated: July 25, 2025
+Last Updated: August 24, 2025
 
 # Syllabus
 
@@ -11,8 +16,8 @@ Last Updated: July 25, 2025
  - __Lecture Time:__ Section 01: MWF, 9:00 -- 9:50 am; Section 02: 10:00 -- 10:50 pm
  - __Lecture Location:__ Leatherby Libraries Lab B14
  - __Course Canvas Sites:__ 
-    - Section 01: TBD
-    - Section 02: TBD
+    - Section 01: https://canvas.chapman.edu/courses/77443
+    - Section 02: https://canvas.chapman.edu/courses/77445
   - __Course Info Repository:__ https://github.com/CPSC-292/Fall2025-CourseInfo/
   - __Course Slack:__ Link will be sent through Canvas
 
@@ -28,7 +33,7 @@ __Instructor:__ Lindsay Waldrop, Ph.D. (she/her/hers)
 
  - _Email address:_ waldrop@chapman.edu
  - _Office Location:_ 268 Keck 
- - _Office Hours:_ Wednesdays 11 am - 12:30 pm; Thursdays 2 - 4 pm; by appointment.
+ - _Office Hours:_ Wednesdays 1 am - 2:30 pm; Thursdays 11:30 am - 1 pm; by appointment.
 
 
 ### Course Materials
@@ -122,7 +127,7 @@ __Generative Artificial Intelligence Tools__: Generative AI (GenAI) tools (e.g.,
 The use of GenAI is permitted in this course for the following activities: 
 
  - brainstorming or refining ideas, 
- - fine-tuning visualization questions, 
+ - fine-tuning visualization questions or code, 
  - finding general information about a topic, 
  - draft an outline to organize thoughts, 
  - checking grammar, 
@@ -131,6 +136,7 @@ The use of GenAI is permitted in this course for the following activities:
  
 The use of GenAI is not permitted for the following activities (with exceptions outlined on specific assignments or projects): 
 
+ - on assignment-level work;
  - writing a draft of any course work; 
  - writing complete code or blocks of code for use in course work, data analysis or visualization; or 
  - writing entire sentences, paragraphs, or papers to complete course work. 

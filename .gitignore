@@ -54,3 +54,9 @@ rsconnect/
 # Other files
 *.DS_Store
 *.html
+*.key
+*.mov
+*.mp4
+*.png
+*.tif
+*.jpg
