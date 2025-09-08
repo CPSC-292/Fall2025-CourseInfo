@@ -26,7 +26,7 @@ __Week 1:__
   - __Fri Aug 29__: L1.3 Computer Games \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{Assignment 1.4}}$ | 1.2.1
 
-__Week 2: __
+__Week 2:__
   
   - __Mon Sep 1__: Labor Day, no class
   - __Wed Sep 3__: L1.4 Hands-on Introduction to R and RStudio \
