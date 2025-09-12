@@ -90,7 +90,7 @@ Your answer here.
 
 *The following line of code does not work. Correct the error so that the code returns the standard deviation of breaks with wool A and tension L.*
 ```{r}
-stdev(warpbreaks$breaks[warpbreaks$wool == "A" & warpbreaks$tension == "L"])
+stdev(warpbreaks$breaks[warpbreaks$wool == "A" & warpbreaks$tension == "L",])
 ```
 
 *Explain why your fix works.*
