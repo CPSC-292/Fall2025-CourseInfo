@@ -47,32 +47,6 @@ my_list$micha[5,2]
 my_list[[2]][5,2]
 ```
 
-### Question 6: Data Frames
-
-Calculate the mean number of breaks in the warpbreaks data set if the tension is either low (L) or medium (M). (Version A)
-
-```{r}
-data("warpbreaks")
-mean(warpbreaks$breaks[warpbreaks$tension != "H"])
-mean(warpbreaks$breaks[warpbreaks$tension == "M" | warpbreaks$tension == "L"])
-```
-
-Calculate the mean number of breaks in the warpbreaks data set for wool type B if the tension is high (H). (Version B)
-
-```{r}
-mean(warpbreaks$breaks[warpbreaks$wool == "B" &
-                         warpbreaks$tension == "H"])
-```
-
-### Question 8: Factors
-
-Create an ordered factor vector with the levels good < better < best to describe your preference for the following disciplines: biology, chemistry, mathematics, computer science, humanities. (Version B)
-
-```{r}
-factor(c("best", "good", "better", "best", "good"), ordered = T,
-       levels = c("good","better", "best"))
-factor(c("biology", "mathematics"), levels = c("good", "better"))
-```
 
 ## Formatting Markdown Text 
 
