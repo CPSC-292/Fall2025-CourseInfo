@@ -57,7 +57,8 @@ Another helpful distinction is between univariate and multivariate data. For uni
 For each of the columns in chickwts, what are the variable types? How could you plot these columns together? Make the plot below.
 
 ```{r,include=TRUE}
-
+data("chickwts")
+plot(weight~feed, data = chickwts)
 ```
 
 ## Summary Statistics
@@ -206,7 +207,9 @@ IQR(chickwts$weight)
 Calculate the mean and standard deviation of sepal lengths in the iris data set broken down by species. (Hint: use `tapply()`!)
 
 ```{r,include=TRUE}
-
+data("iris")
+tapply(iris$Sepal.Length, INDEX = iris$Species, FUN = mean)
+tapply(iris$Sepal.Length, INDEX = iris$Species, FUN = sd)
 ```
 
 
