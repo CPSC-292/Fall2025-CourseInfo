@@ -1,6 +1,6 @@
 # CPSC 292 Lecture and Assignment Schedule -- Fall 2025
 
-Last updated: 7/25/2025
+Last updated: 10/15/2025
 
 ### Reading Guide and Notes
 
@@ -85,9 +85,9 @@ __Week 8:__
 
   - __Mon Oct 13__: L2.9 Critiquing Visualizations (no video),  __SK1 final attempt__ \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{Prepare projects for critiques}}$ | 3.1-3.6 
-  - __Wed Oct 15__: Project 1 (P1): Draft Visualizations set 1; Assignment 2.7: Providing critiques (no video) \
+  - __Wed Oct 15__: Project 1 (P1): Draft Visualizations set 1; Providing critiques (no video) \
   $\color{red}{\textsf{Set 1 prepares for critiques}}$ | $\color{blue}{\textsf{None}}$ | 3.1-3.6
-  - __Fri Oct 17__: Project 1 (P1): Draft Visualizations set 2; Assignment 2.7: Providing critiques (no video) \
+  - __Fri Oct 17__: Project 1 (P1): Draft Visualizations set 2;  Providing critiques (no video) \
   $\color{red}{\textsf{Set 2 prepares for critiques}}$ | $\color{blue}{\textsf{None}}$ | 3.1-3.6
 
 __Week 9:__
