@@ -4,10 +4,6 @@ author: "Lindsay Waldrop"
 date: "10/24/2025"
 output: html_notebook
 ---
-```{r setup}
-library(ggplot2)
-library(viridis)
-```
 
 ## 3.2 Writing Your Own Functions
 
@@ -149,6 +145,7 @@ When should you consider turning code into a function? Think repetition! Every t
 
 An example of a ggplot figure that I want to make three times, to compare the four continuous 
 ```{r}
+library(viridis)
 ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length, fill=Species)) + 
   geom_point(size = 3, color = "gray30", pch = 21) +
   xlab("Sepal Width") + ylab("Sepal Length") +
