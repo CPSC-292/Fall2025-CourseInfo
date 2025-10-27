@@ -66,7 +66,7 @@ if(light == "green"){
 Write a conditional that prints “higher” if the number `n` is above 10. 
 
 ```{r, include=TRUE}
-n <- c(10, 11, 12)
+n <- 12
 if(n > 10) { 
   print("higher")
 }
