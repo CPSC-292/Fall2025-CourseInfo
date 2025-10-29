@@ -1,11 +1,6 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # CPSC 292 - Introduction to Exploratory Data Analysis
 
-Last Updated: August 24, 2025
+Last Updated: October 29, 2025
 
 # Syllabus
 
@@ -33,7 +28,7 @@ __Instructor:__ Lindsay Waldrop, Ph.D. (she/her/hers)
 
  - _Email address:_ waldrop@chapman.edu
  - _Office Location:_ 268 Keck 
- - _Office Hours:_ Wednesdays 1 am - 2:30 pm; Thursdays 11:30 am - 1 pm; by appointment.
+ - _Office Hours:_ Wednesdays 1 pm - 2:30 pm; Thursdays 11:30 am - 1 pm; by appointment.
 
 
 ### Course Materials
