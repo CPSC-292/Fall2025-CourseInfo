@@ -23,10 +23,10 @@ You can repeat multiple lines by putting them inside curly braces:
 
 ```{r include=TRUE}
 # Warning! Do not try to knit with this line uncommented! 
-# repeat {
-#   print("This is the song that never ends.")
-#   print("Yes it goes on and on, my friends.")
-# }
+#repeat {
+#  print("This is the song that never ends.")
+#  print("Yes it goes on and on, my friends.")
+#}
 ```
 
 Now this isn't as helpful without some way of stopping it! `break` will stop a loop. 
@@ -79,6 +79,7 @@ while (x < 11) {
   x <- x + 1
 }
 ```
+
 ### The for loop
 
 For loops repeat for a predetermined number of times that you set as an argument: a variable that will cycle through each number in a vector. Each time the loop starts again, the value of the variable will change to the next value in the vector. In this example, the variable x will take on each value in a sequence of 1 to 10. 
