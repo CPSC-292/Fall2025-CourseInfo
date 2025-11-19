@@ -1,6 +1,6 @@
 # CPSC 292 Lecture and Assignment Schedule -- Fall 2025
 
-Last updated: 10/15/2025
+Last updated: 11/19/2025
 
 ### Reading Guide and Notes
 
