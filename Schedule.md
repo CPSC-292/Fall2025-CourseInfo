@@ -151,7 +151,7 @@ __Week 14:__
   
 __Week 15:__
 
-  - __Mon Dec 1__: L4.4 Scientific Papers and Grants, __SK3 attempt 2__ \
+  - __Mon Dec 1__: Work on Final Projects (no video), __SK3 attempt 2__ \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{None}}$ | 3.7.2 | __Project 3 due (section 2)__
   - __Wed Dec 3__: Work on Final Projects (no video) \
   $\color{red}{\textsf{None}}$ | $\color{blue}{\textsf{None}}$ | all
